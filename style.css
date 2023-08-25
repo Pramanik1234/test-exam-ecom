@@ -1,0 +1,133 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  padding: 50px 30%;
+}
+.middle_box {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 15px 20px;
+  border: 2px solid rgba(186, 189, 187, 0.851);
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  display: flex;
+}
+.middle_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.middle_item_header {
+  display: flex;
+  gap: 60px;
+  align-items: end;
+  align-items: center;
+  justify-content: space-between;
+}
+.pair {
+  display: flex;
+  flex-direction: column;
+}
+.p_price {
+  text-decoration: line-through;
+  opacity: 0.8;
+  font-size: 12px;
+}
+.current_price {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+}
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: large;
+  color: rgb(5, 87, 32);
+}
+input[type="radio"] {
+  margin-top: 10px;
+}
+.selection {
+  margin-top: 10px;
+  display: none;
+  align-items: start;
+}
+.select {
+  display: flex;
+  gap: 5px;
+}
+select {
+  width: 80px;
+  height: 25px;
+}
+
+.size {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.color {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.total_bill {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add {
+  margin-top: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 0px;
+  background-color: rgb(8, 122, 6);
+  color: azure;
+  border: none;
+}
+.item_number {
+  margin-left: -12px;
+  padding-right: 5px;
+}
+.show {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.selection_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+.current_price span {
+  color: green;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 50px 10px;
+  }
+  .middle_item_header {
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .container {
+    padding: 50px 30px;
+  }
+  .middle_item_header {
+    gap: 20px;
+  }
+}
